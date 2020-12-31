@@ -1,0 +1,314 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: rgb(241, 243, 246);
+    font-family: Nunito, sans-serif;
+}
+.main  {
+    display: flex;
+    background-color: rgb(251, 173, 35);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+
+.image img{
+    display: inline-block;
+    margin-left: 200px;
+    height: 40px;
+    margin-top: 5px;
+    
+}
+
+.search-box {
+    display: flex;
+    padding: 5px;
+    margin-left: 200px;
+    height: 38px;
+    border-radius: 50px;
+    border: none;
+}
+
+input {
+    text-align: left;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.log-in {
+    display: inline-block;
+    font-size: 20px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    margin-left: 300px;
+    border-radius: 10px;
+    padding: 6px 10px 0;
+    margin-bottom: 6px;
+    margin-top: 6px;
+
+}
+
+.log-in p{
+    text-align:justify;
+}
+
+
+
+.sign-up {
+    border: 2px solid #ffffff;
+    font-size: 20px;
+    color: black;
+    font-weight: 300;
+    background-color: #ffffff;
+    margin: 6px 10px 6px;
+    padding: 6px 10px 0;
+    border-radius: 10px;
+}
+
+.sign-up p {
+    text-align: justify;
+}
+
+.middle {
+    margin-top: 100px;
+    max-width: 1500px;;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.middle-1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    max-width: 2500px;
+    height: 500px;
+}
+
+
+
+iframe {
+    width: 700px;
+    height: 400px;
+    margin: 50px 0 ;
+    margin-left: 20px;
+}
+
+.second {
+    margin-left: 100px;
+    height: 400px;
+    margin-top: 70px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.second h1 {
+    font-size: 40px;
+}
+.second ul {
+    list-style-type: none;
+}
+
+.middle-2 {
+    display: inline-block;
+    margin-top: 40px;    
+}
+
+.middle-2-1 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;    
+}
+
+.middle-2 h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.middle-2 p {
+    text-align: center;
+}
+
+.a, .b, .c, .d, .e, .f {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px;
+    margin: 5px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px black;
+    }
+
+
+.a {
+    background-image: url(https://www.letslocalise.co.uk/LLStatic/js/react/images/54d7d10f-Pledge_penny.jpg);
+    background-position: center;
+    background-size: cover; 
+   
+}
+
+.b {
+    background-image: url(https://www.letslocalise.co.uk/LLStatic/js/react/images/4e209fb8-pledge_a_minute.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.c {
+    background-image: url(https://www.letslocalise.co.uk/LLStatic/js/react/images/1ef297a8-pledgeResources.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.d {
+    background-image: url(https://www.letslocalise.co.uk/LLStatic/js/react/images/0218a53c-Expert_Time.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.e {
+    background-image: url(https://www.letslocalise.co.uk/LLStatic/js/react/images/c1c34994-work_with_school.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.f{
+    background-image: url(https://www.letslocalise.co.uk/LLStatic/js/react/images/fe65e6bd-helping_hand.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.middle-3 {
+    font-size: 18px;
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    background-color: rgb(122, 122, 122);
+    border-radius: 5px;
+    margin-top: 150px;
+    color: #ffffff;
+}
+
+.middle-3-signup{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(251, 173, 35);
+    color: #ffffff;
+}
+
+.middle-3-signup:hover {
+    background-color: rgb(250, 165, 18);
+}
+
+.middle-4 {
+    text-align: center;
+    font-size: 18px;
+    padding: 60px 0;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+.middle-4 h1{
+    margin: 10px 0;
+    margin-bottom: 25px;
+}
+.middle-4-1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.aa, .bb, .cc, .dd, .ee, .ff {
+    padding: 50px 100px;
+    margin: 5px;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px black;
+}
+
+.aaa {
+    padding: 5px;
+    margin-top: 50px;
+    border-top-style: solid;
+    border-top-width: thin;
+}
+    
+.aaa p:hover {
+    color: rgb(250, 165, 18);
+}
+
+.bottom {
+    display: flex;
+    background-color: rgb(46, 60, 75);
+    height: 100%;
+    line-height: 1.5;
+}
+
+.bottom-first {
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.bottom-first h2{
+    color: #ffffff;
+}
+
+.bottom-first p {
+    color: #e4d1d1;
+    margin-bottom: 10px;
+}
+
+.bottom-first input[type=text] {
+    height: 25px;
+    width: 300px;
+}
+
+.button {
+    height: 25px;
+    width: 80px;
+    display: inline-block;
+    background-color: rgb(251, 173, 35);
+    color: black;
+    text-align: center;
+    border-radius: 5px;    
+}
+
+.button:hover {
+    background-color: rgb(230, 151, 15);
+}
+
+.logo {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.bottom-second {
+    width: 60%;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+}
+
+table{
+    width: 90%;
+    padding-top: 25px;
+    margin-bottom: 40px;
+}
+
+th {
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 20px;
+}
